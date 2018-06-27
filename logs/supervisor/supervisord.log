@@ -57,3 +57,15 @@
 2018-06-27 16:06:37,324 CRIT reaped unknown pid 38)
 2018-06-27 16:06:37,671 INFO waiting for varnishd to die
 2018-06-27 16:06:37,799 INFO stopped: varnishd (exit status 0)
+2018-06-27 18:34:59,545 CRIT Supervisor running as root (no user in config file)
+2018-06-27 18:34:59,546 WARN Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2018-06-27 18:34:59,601 INFO RPC interface 'supervisor' initialized
+2018-06-27 18:34:59,601 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2018-06-27 18:34:59,601 INFO supervisord started with pid 1
+2018-06-27 18:35:00,607 INFO spawned: 'varnishd' with pid 24
+2018-06-27 18:35:00,612 INFO spawned: 'php-fpm' with pid 25
+2018-06-27 18:35:00,614 INFO spawned: 'varnish-plugins-watcher' with pid 26
+2018-06-27 18:35:00,619 INFO spawned: 'nginx' with pid 27
+2018-06-27 18:35:00,630 INFO spawned: 'MailHog' with pid 28
+2018-06-27 18:35:00,635 INFO spawned: 'mysql' with pid 29
+2018-06-27 18:35:00,645 INFO spawned: 'varnish-themes-watcher' with pid 30
